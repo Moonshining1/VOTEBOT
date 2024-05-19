@@ -32,7 +32,7 @@ async def update_handler(event):
 # Handler for support button
 @client.on(events.NewMessage(pattern='/support'))
 async def support_handler(event):
-    await event.respond('For support, join our Telegram group: [Support Group](https://t.me/BWANDARLOK)')
+    await event.respond('For support, join our Telegram group: [Support Group](https://t.me/kittyxupdates)')
 
 
 # Start the client
